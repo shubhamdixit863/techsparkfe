@@ -53,12 +53,13 @@ const Navbar = () => {
             </div>
 
             <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`}>
-                <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                    <a href="#" className="block text-menu-gray hover:bg-gray-100 px-3 py-2 rounded-md text-base font-medium">Home</a>
-                    <a href="#" className="block text-menu-gray hover:bg-gray-100 px-3 py-2 rounded-md text-base font-medium">About</a>
-                    <a href="#" className="block text-menu-gray hover:bg-gray-100 px-3 py-2 rounded-md text-base font-medium">Services</a>
-                    <a href="#" className="block text-menu-gray hover:bg-gray-100 px-3 py-2 rounded-md text-base font-medium">Contact</a>
-                </div>
+              
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <Link href="/" className="block text-menu-gray hover:bg-gray-100 px-3 py-2 rounded-md text-base font-medium">Home</Link>
+            <Link href="/blog" className="block text-menu-gray hover:bg-gray-100 px-3 py-2 rounded-md text-base font-medium">Blog</Link>
+            <Link href="/course" className="block text-menu-gray hover:bg-gray-100 px-3 py-2 rounded-md text-base font-medium">Courses</Link>
+            <Link href="#" className="block text-menu-gray hover:bg-gray-100 px-3 py-2 rounded-md text-base font-medium">Login</Link>
+          </div>
                 <div className="px-3 py-2">
                     <button className="block w-full text-menu-gray hover:text-black border-2 border-login-border px-3 py-2 rounded-md text-base font-medium">Login</button>
                 </div>
