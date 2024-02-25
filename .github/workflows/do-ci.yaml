@@ -38,5 +38,5 @@ jobs:
       # Run kubectl commands to deploy your application
       - name: Deploy Application
         run: |
-          kubectl delete rs techspark-frontend || true
+          kubectl delete deployment nextjs-deployment || true
           kubectl apply -f k8_frontend.yaml
