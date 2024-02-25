@@ -16,18 +16,7 @@ const courses = [
   duration:"7 Month",
   seat:30
 },
-{ id: 2, name: "MERN Stack Weekend", description: "Embark on a transformative weekend learning adventure with our MERN stack development course. Dive into immersive sessions every Saturday and Sunday from 8:00 PM - 10:00 PM. Enroll now for quality learning with flexibility" ,
-duration:"7 Month",
-seat:30
-},
-{ id: 2, name: "MERN Stack Weekend", description: "Embark on a transformative weekend learning adventure with our MERN stack development course. Dive into immersive sessions every Saturday and Sunday from 8:00 PM - 10:00 PM. Enroll now for quality learning with flexibility" ,
-duration:"7 Month",
-seat:30
-},
-{ id: 2, name: "MERN Stack Weekend", description: "Embark on a transformative weekend learning adventure with our MERN stack development course. Dive into immersive sessions every Saturday and Sunday from 8:00 PM - 10:00 PM. Enroll now for quality learning with flexibility" ,
-duration:"7 Month",
-seat:30
-},
+
   
 ];
 
