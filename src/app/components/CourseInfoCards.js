@@ -21,7 +21,7 @@ const CourseInfoCards = () => {
                 Top performers in our PAP selection process pay us only after we
                 get them a Job!
               </p>
-              <ul className="list-disc list-inside text-sm text-gray-600">
+              <ul className="list-disc list-inside text-sm text-gray-600 font-semibold">
                 <li>Solve Assignments</li>
                 <li>Coding Test</li>
                 <li>Interview</li>
@@ -50,7 +50,7 @@ const CourseInfoCards = () => {
                 Pay a minimal Tuition fees in monthly installments & pay the
                 remaining fee after placement only if we get you placed.
               </p>
-              <ul className="list-disc list-inside text-sm text-gray-600">
+              <ul className="list-disc list-inside text-sm text-gray-600 font-semibold">
                 <li>Give Eligibility Test</li>
                 <li>Talk to Our Counsellor to Buy Course</li>
               </ul>

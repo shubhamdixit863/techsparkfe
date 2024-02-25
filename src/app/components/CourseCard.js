@@ -1,4 +1,4 @@
-
+// import { mernTextWeek } from "../constant/footerText";
 
 // src/components/CourseCard.js
 const CourseCard = ({ course }) => {

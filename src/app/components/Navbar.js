@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return (
         <>
-        <div className="bg-white text-menu-gray">
+        <div className="bg-white text-menu-gray sticky top-0">
             <div className="max-w-6xl mx-auto px-4">
                 <div className="flex justify-between items-center h-16">
                     <div className="flex-shrink-0">  
@@ -65,9 +65,10 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
-          <div className="announce-bar">
-          <p>Next batch starts on ⌛️ 7th March. Hurry, limited seats left!</p>
-      </div>
+       
+<div className="announce-bar md:text-sm lg:text-base">
+  <p>Next batch starts on ⌛️ 7th March. Hurry, limited seats left!</p>
+</div>
       </>
     );
 };

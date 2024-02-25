@@ -1,8 +1,9 @@
 
 // PopUpForm.jsx
 "use client";
+import axios from "axios";
+
 import { useState } from 'react';
-import { useClient } from 'next/react';
 const PopUpForm = ({ onClose }) => {
   const [formData, setFormData] = useState({
     fullName: '',
@@ -17,19 +18,33 @@ const PopUpForm = ({ onClose }) => {
     });
   };
 
-  const handleSubmit = () => {
-    console.log('Full Name:', formData.fullName);
-    console.log('Email:', formData.email);
-    console.log('Mobile:', formData.mobile);
-
-    // Close the modal after submission
-    onClose();
+  //submit the form
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+  
+    try {
+      const response = await axios.post("api-endpoint", formData);
+      console.log("Submitted Data:", formData);
+      // Clear the form data
+      setFormData({
+        fullName: '',
+        email: '',
+        mobile: '',
+      });
+      console.log("Response from backend:", response.data);
+      onClose()
+    } catch (error) {
+      // Handle errors
+      console.error("Error:", error.message);
+    }
+    onClose()
   };
+  
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
       <div className="bg-white p-6 rounded-md">
-        <h2 className="text-2xl font-semibold mb-4">Download Brochure</h2>
+        <h2 className="font-semibold mb-4 text-black">Fill The Application Form To Download The Brochure</h2>
         <form>
           <div className="mb-4">
             <label htmlFor="fullName" className="block text-sm font-medium text-gray-700">
