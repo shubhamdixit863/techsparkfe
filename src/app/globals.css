@@ -45,7 +45,16 @@ body {
   color: #fff;
   background-color: #2f80ed;
 }
+/* whatsapp icons style... connected on whatsapp */
+@keyframes danceAnimation {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
 
+.dance-icon {
+  animation: danceAnimation 1s infinite;
+}
 /* media query */
 @media (max-width: 676px) {
   .about {
@@ -63,3 +72,17 @@ body {
     font-size: 14px; 
   }
 }
+/* accordion section css */
+/* .FAQs{
+  background-color: aquamarine;
+  display: inline-block;
+  width: auto;
+  margin: auto;
+  background: url('/image/stroke.png');
+  background-repeat: no-repeat;
+  background: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  color: black;
+} */
