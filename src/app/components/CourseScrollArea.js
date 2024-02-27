@@ -29,13 +29,13 @@ const CoursesScrollArea = () => {
 
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({ left: -200, behavior: "smooth" });
+      scrollContainerRef.current.scrollBy({ left: -600, behavior: "smooth" });
     }
   };
 
   const scrollRight = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({ left: 200, behavior: "smooth" });
+      scrollContainerRef.current.scrollBy({ left: 600, behavior: "smooth" });
     }
   };
 

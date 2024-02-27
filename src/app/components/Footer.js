@@ -57,6 +57,7 @@ const Footer = () => {
           {/* Social Media Links */}
    
           <div className="flex mt-4 justify-center items-center space-x-12">
+            {/* <h2>Follow Us</h2> */}
   <a href="#" className="text-white hover:text-blue-500 font-bold" style={{ marginRight: '0.5rem' }}><i className="fab fa-facebook"></i></a>
   <a href="#" className="text-white hover:text-blue-500" style={{ marginRight: '0.5rem' }}><i className="fab fa-twitter"></i></a>
   <a href="#" className="text-white hover:text-blue-500"><i className="fab fa-linkedin"></i></a>

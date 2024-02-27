@@ -18,36 +18,58 @@ const PopUpForm = ({ onClose }) => {
     });
   };
 
-  //submit the form
   const handleSubmit = async (e) => {
     e.preventDefault();
   
     try {
       const response = await axios.post("api-endpoint", formData);
       console.log("Submitted Data:", formData);
-      // Clear the form data
       setFormData({
         fullName: '',
         email: '',
         mobile: '',
       });
       console.log("Response from backend:", response.data);
-      onClose()
+      onClose();
     } catch (error) {
-      // Handle errors
       console.error("Error:", error.message);
     }
-    onClose()
+    onClose();
   };
-  
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-white p-6 rounded-md">
-        <h2 className="font-semibold mb-4 text-black">Fill The Application Form To Download The Brochure</h2>
+      <div className="bg-white pb-5 px-5 rounded-md relative md:m-2">
+        {/* Close button */}
+        <button
+          className= "relative top-0 left-full text-black hover:text-gray-800 hover:rounded-full hover:bg-gray-500"
+          onClick={onClose}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            color="#000000"
+            fill="none"
+          >
+            <path
+              d="M18 6L12 12M12 12L6 18M12 12L18 18M12 12L6 6"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+
+        <h2 className="font-semibold mb-4 text-black">
+          Fill The Application Form To Download The Brochure
+        </h2>
+
         <form>
           <div className="mb-4">
-            <label htmlFor="fullName" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="fullName" className="block text-sm font-medium text-black">
               Full Name
             </label>
             <input
@@ -59,7 +81,7 @@ const PopUpForm = ({ onClose }) => {
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="email" className="block text-sm font-medium text-black">
               Email
             </label>
             <input

@@ -30,6 +30,9 @@ const Navbar = () => {
             <Link href="/course" className="text-menu-gray hover:text-black px-3 py-2 rounded-md text-sm font-medium">
                 Courses
             </Link>
+            <Link href="/about" className="text-menu-gray hover:text-black px-3 py-2 rounded-md text-sm font-medium">
+                About
+            </Link>
          
                     </div>
                     <div className="hidden md:block">
@@ -66,8 +69,8 @@ const Navbar = () => {
             </div>
         </div>
        
-<div className="announce-bar md:text-sm lg:text-base">
-  <p>Next batch starts on ⌛️ 7th March. Hurry, limited seats left!</p>
+<div className="announce-bar ps-1 md:text-sm lg:text-base">
+  <p>Next batch starts on ⌛️ 2nd March. Hurry, limited seats left!</p>
 </div>
       </>
     );
