@@ -58,11 +58,34 @@ const Footer = () => {
    
           <div className="flex mt-4 justify-center items-center space-x-12">
             {/* <h2>Follow Us</h2> */}
-  <a href="#" className="text-white hover:text-blue-500 font-bold" style={{ marginRight: '0.5rem' }}><i className="fab fa-facebook"></i></a>
-  <a href="#" className="text-white hover:text-blue-500" style={{ marginRight: '0.5rem' }}><i className="fab fa-twitter"></i></a>
-  <a href="#" className="text-white hover:text-blue-500"><i className="fab fa-linkedin"></i></a>
+  {/* Replace the existing anchor tag */}
+
+  <a href="https://your-facebook-page-link" target="_blank" rel="noopener noreferrer">
+  <img src="image/fb.svg" alt="Facebook Icon" className="text-white hover:text-blue-500 font-bold invert" style={{ marginRight: '0.5rem', height: "35px" }} />
+</a>
+<a href="https://your-facebook-page-link" target="_blank" rel="noopener noreferrer">
+  <img src="image/insta.svg" alt="Facebook Icon" className="text-white hover:text-blue-500 font-bold invert" style={{ marginRight: '0.5rem', height: "35px" }} />
+</a>
+<a href="https://your-facebook-page-link" target="_blank" rel="noopener noreferrer">
+  <img src="image/twitter.svg" alt="Facebook Icon" className="text-white hover:text-blue-500 font-bold invert" style={{ marginRight: '0.5rem', height: "35px" }} />
+</a>
+<a href="https://your-facebook-page-link" target="_blank" rel="noopener noreferrer">
+  <img src="image/linkedin.svg" alt="Facebook Icon" className="text-white hover:text-blue-500 font-bold invert" style={{ marginRight: '0.5rem', height: "35px" }} />
+</a>
+
+
 </div>
 
+<div>
+<button
+  className=" text-white font-medium rounded-lg text-sm px-4 py-2 mt-4 w-full md:w-auto mx-auto outline"
+  onClick={openForm}
+>
+  <div className='flex flex-row'><img src="image/call.svg" alt="Facebook Icon" className="text-white hover:text-blue-500 font-bold invert" style={{ marginRight: '0.5rem', height: "20px" }} />
+  <span>Request a Callback</span></div>
+
+</button>
+</div>
 <style jsx>{`
   @media (min-width: 768px) {
     .flex {
