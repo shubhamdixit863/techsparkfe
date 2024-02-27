@@ -78,13 +78,17 @@ const Footer = () => {
 
 <div>
 <button
-  className=" text-white font-medium rounded-lg text-sm px-4 py-2 mt-4 w-full md:w-auto mx-auto outline"
+  className="text-white font-medium rounded-lg text-sm px-4 py-2 mt-4 w-full md:w-auto mx-auto outline"
   onClick={openForm}
+  style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}
 >
-  <div className='flex flex-row'><img src="image/call.svg" alt="Facebook Icon" className="text-white hover:text-blue-500 font-bold invert" style={{ marginRight: '0.5rem', height: "20px" }} />
-  <span>Request a Callback</span></div>
-
+  <div className='flex flex-row gap-2'>
+  <img src="image/call.svg" alt="Call Icon" className="text-white hover:text-blue-500 font-bold invert" style={{ height: "20px", marginBottom: '0.5rem' }} />
+  <span>Request a Callback</span>
+  </div>
+ 
 </button>
+
 </div>
 <style jsx>{`
   @media (min-width: 768px) {
