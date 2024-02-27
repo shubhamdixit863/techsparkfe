@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import CoursesScrollArea from "./components/CourseScrollArea";
 import CourseInfoCards from "./components/CourseInfoCards";
 import Footer from "./components/Footer";
+import FAQAccordion from "./components/FAQAccordion";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
     <Banner/>
     <CoursesScrollArea/>
     <CourseInfoCards/>
+    <FAQAccordion />
    
     </>
   );
