@@ -9,7 +9,7 @@ const About = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div className="flex flex-col items-center justify-center h-screen about">
       <div className="w-10/12 md:w-8/12 lg:w-6/12 text-white p-4 md:mt-8">
         <h1 className="text-3xl font-bold mb-4 text-white">About TechSpark</h1>
         <p className="text-white-600 mb-6">

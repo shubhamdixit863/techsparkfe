@@ -47,3 +47,19 @@ body {
 }
 
 /* media query */
+@media (max-width: 676px) {
+  .about {
+    /* background-color: greenyellow; */
+    word-wrap: break-word;
+    height: auto;
+    font-size: 14px; 
+  }
+}
+@media (max-width: 676px) {
+  .banner {
+    /* background-color: greenyellow; */
+    word-wrap: break-word;
+    height: auto;
+    font-size: 14px; 
+  }
+}
