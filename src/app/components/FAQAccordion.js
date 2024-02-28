@@ -51,7 +51,7 @@ const FAQAccordion = () => {
   return (
     <div className="mb-6">
       <div className="">
-        <h2 className="text-center text-xl">HAVE ANY DOUBTS?</h2>
+        <h2 className="text-center text-xl mt-3">HAVE ANY DOUBTS?</h2>
         <div className="flex justify-center items-center flex-col">
       <h1
         className="text-center text-xl my-3"

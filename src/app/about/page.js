@@ -2,6 +2,7 @@
 "use client"
 import React from 'react';
 import TopPart from './TopPart';
+import MiddlePart from './MiddlePart';
 
 const About = () => {
   const handleTextAnimation = () => {
@@ -12,9 +13,10 @@ const About = () => {
   return (
     <>
     <TopPart />
+    <MiddlePart />
        <div className="flex flex-col items-center justify-center h-screen about bg-slate-100 text-gray-900">
       
-      <div className="w-10/12 md:w-8/12 lg:w-6/12 p-4 md:mt-8  text-gray-900">
+      <div className="w-11/12 md:w-8/12 lg:w-6/12 p-4 md:mt-8  text-gray-900">
         <h1 className="text-3xl font-bold mb-4">About TechSpark</h1>
         <p className="text-white-600 mb-6">
           Welcome to TechSpark, your gateway to high-quality IT training. At TechSpark, we pride ourselves on delivering cutting-edge courses facilitated by industry experts currently working in top product-based companies.

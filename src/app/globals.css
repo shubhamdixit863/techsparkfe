@@ -66,18 +66,23 @@ body {
 }
 @media (max-width: 676px) {
   .banner {
-    /* background-color: greenyellow; */
     word-wrap: break-word;
     height: auto;
     font-size: 14px; 
   }
   .home_section_top{
     display: flex;
-    flex-direction: column;
-  }
-  .image{
+    flex-direction: column-reverse;
     text-align: center;
-  }
+    clip-path: polygon(0% 0%, 100% 1%, 100% 90%, 35% 100%, 0% 100%)
+}
+.middle{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0; */
+}
 }
 /* why choose us area */
 .common_card{

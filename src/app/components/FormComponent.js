@@ -33,7 +33,6 @@ const FormComponent = () => {
       console.error("Error:", error.message);
     }
   };
-  
   return (
     <div className="max-w-md mx-auto my-10 bg-white p-4 sm:p-8 rounded-lg shadow-md">
       <h2 className="text-xl sm:text-2xl font-semibold text-center text-gray-800">

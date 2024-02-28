@@ -15,16 +15,17 @@ const TopPart = () => {
     }, []);
   
     return (
-      <div className={`home_section_top flex pt-4 pb-28 bg-gray-500 fade-in-text ${fade ? 'fade-in' : ''}`}>
-        <div className='left text-black flex-1'>
-          <h1 className='text-4xl font-bold text-center pt-7 ms-20'>{text[0].banner_heading}</h1>
-          <p className='text-justify ms-24 me-5 mt-5 text-white'>{text[0].banner_text}</p>
-        </div>
-        <div className='right flex-1 text-center md:text-left'>
-  <img className='mx-auto md:float-right me-20' src='/image/liveIn.jpg' alt='' style={{ height: "300px", width: "350px" }} />
+
+<div className={`home_section_top flex pt-4 pb-36 bg-gray-500 fade-in-text ${fade ? 'fade-in' : ''}`}>
+  <div className='left text-black flex-1 text-center md:text-left'>
+    <h1 className='text-4xl font-bold pt-7 md:ms-20'>{text[0].banner_heading}</h1>
+    <p className='text-justify ms-5 me-5 mt-5 text-white'>{text[0].banner_text}</p>
+  </div>
+  <div className='right flex-1 text-center md:text-left'>
+    <img className='mx-auto md:float-right md:me-20' src='/image/liveIn.jpg' alt='' style={{ height: "300px", width: "350px" }} />
+  </div>
 </div>
 
-      </div>
     );
   };
   
