@@ -50,7 +50,7 @@ const FormComponent = () => {
             name="fullName"
             value={formData.fullName}
             onChange={handleChange}
-            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 shadow-sm"
+            className="w-full px-4 py-2 border border-gray-300 text-black rounded-md focus:ring-blue-500 focus:border-blue-500 shadow-sm z-10"
           />
         </div>
 
@@ -65,7 +65,7 @@ const FormComponent = () => {
             name="phoneNumber"
             value={formData.phoneNumber}
             onChange={handleChange}
-            className="w-full pl-12 pr-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 shadow-sm"
+            className="w-full pl-12 pr-4 py-2 text-black border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 shadow-sm z-10"
           />
         </div>
 
