@@ -141,7 +141,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="flex"
             >
-              <h2 className="text-gray-600 bg-gray-100 rounded-md p-2 me-3">
+              <h2 className="text-slate-50 bg-slate-600 rounded-md p-2 me-3">
                 Connect on WhatsApp
               </h2>
               <img
