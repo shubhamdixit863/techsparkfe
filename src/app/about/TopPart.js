@@ -20,9 +20,10 @@ const TopPart = () => {
           <h1 className='text-4xl font-bold text-center pt-7 ms-20'>{text[0].banner_heading}</h1>
           <p className='text-justify ms-24 me-5 mt-5 text-white'>{text[0].banner_text}</p>
         </div>
-        <div className='right flex-1'>
-          <img className='text-left float-right me-20' src='/image/liveIn.jpg' alt='' style={{ height: "300px", width: "350px" }} />
-        </div>
+        <div className='right flex-1 text-center md:text-left'>
+  <img className='mx-auto md:float-right me-20' src='/image/liveIn.jpg' alt='' style={{ height: "300px", width: "350px" }} />
+</div>
+
       </div>
     );
   };
