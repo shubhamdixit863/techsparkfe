@@ -86,3 +86,15 @@ body {
   margin-bottom: 20px;
   color: black;
 } */
+/* why choose us area */
+.common_card{
+  /* background-color: rgb(245, 243, 239); */
+  border: none;
+  border-radius: 10px;
+}
+.common_card:hover{
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.08);
+  transition: all 2s;
+  cursor: pointer;
+}
