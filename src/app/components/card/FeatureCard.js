@@ -3,7 +3,7 @@ import React from 'react'
 const FeatureCard = ({feature}) => {
     const { imageSrc, title, description } = feature;
   return (
-    <div className=" mb-4 bg-slate-300 rounded-md common_card px-2">
+    <div className=" md:mb-4 sm:mb-1 bg-slate-300 rounded-md common_card px-2 mx-1">
     <div className="card text-black rounded-md">
       <img
         src={imageSrc}
@@ -13,7 +13,7 @@ const FeatureCard = ({feature}) => {
       />
       <div className="card-body">
         <h5 className="card-title text-center font-semibold">{title}</h5>
-        <p className="card-text mt-5 my-1 whitespace-pre-wrap">{description}</p>
+        <p className="card-text text-center mt-5 my-1 whitespace-pre-wrap">{description}</p>
       </div>
     </div>
   </div>

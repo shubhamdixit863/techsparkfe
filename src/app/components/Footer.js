@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import leftSectionContent from "../constant/footerText";
 import "@fortawesome/fontawesome-free/css/all.css";
 import PopUpForm from "./PopUpform";
+import Link from "next/link";
 
 const Footer = () => {
   const [showForm, setShowForm] = useState(false);
@@ -38,14 +39,21 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-2">Links</h3>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="text-sm md:mx-auto sm:text-center">
+             <Link href="/blog" className="text-white hover:text-blue-300 hover:underline  px-3 py-2 rounded-md text-sm font-medium">
                 Blog
-              </a>
+            </Link>
             </li>
             <li>
-              <a href="#" className="text-sm">
+             
+            <Link href="/about" className="text-white hover:text-blue-300 hover:underline px-3 py-2 rounded-md text-sm font-medium">
                 About Us
-              </a>
+            </Link>
+            </li>
+            <li>
+            <a href="/privacy" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-300 hover:underline px-3 py-2 rounded-md text-sm font-medium">
+  Privacy & Policy
+</a>
+
             </li>
           </ul>
         </div>

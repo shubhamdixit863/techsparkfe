@@ -33,7 +33,7 @@ const Features = () => {
   return (
     <div className="container md:w-4/5 mx-auto mt-10 sm:w-full">
       <div
-        className="text-center mt-1 text-2xl font-serif">
+        className="text-center mt-1 text-2xl mb-4 font-serif">
         Endless Reason To Choose Us
       </div>
 
