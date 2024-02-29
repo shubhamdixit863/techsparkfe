@@ -55,6 +55,31 @@ body {
 .dance-icon {
   animation: danceAnimation 1s infinite;
 }
+/* why choose us area */
+.common_card{
+  border: none;
+  border-radius: 10px;
+}
+.common_card:hover{
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.08);
+  transition: all 2s;
+  cursor: pointer;
+}
+/* home part custom css */
+  .home_section_top{
+    color: white;
+    opacity: 0.2;
+    transition: opacity 1s ease-in-out;
+    clip-path: polygon(0 0, 100% 0, 100% 74%, 0 100%, 0% 100%);
+  }
+  fade-in-text {
+    opacity: 0.2;
+    transition: opacity 1s ease-in-out; 
+  }
+  .fade-in {
+    opacity: 1;
+  }
 /* media query */
 @media (max-width: 676px) {
   .about {
@@ -81,35 +106,29 @@ body {
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  
-  /* padding: 0; */
+}
+.about_text{
+  text-align: justify;
+  margin-left: 12px;
+  margin-right: 10px;
+  white-space: unset;
 }
 .course>*{
   margin: auto;
 }
+.image_card{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
-/* why choose us area */
-.common_card{
-  border: none;
-  border-radius: 10px;
+.heading_card{
+  font-size: medium;
 }
-.common_card:hover{
-  transition: all 0.3s ease-in-out;
-  transform: scale(1.08);
-  transition: all 2s;
-  cursor: pointer;
+.text_card{
+   font-size: smaller;
 }
-/* home part custom css */
-  .home_section_top{
-    color: white;
-    opacity: 0.2;
-    transition: opacity 1s ease-in-out;
-    clip-path: polygon(0 0, 100% 0, 100% 74%, 0 100%, 0% 100%);
-  }
-  fade-in-text {
-    opacity: 0.2;
-    transition: opacity 1s ease-in-out; 
-  }
-  .fade-in {
-    opacity: 1;
-  }
+.accordion_q{
+  font-size: medium;
+}
+
+}

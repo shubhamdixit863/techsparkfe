@@ -10,7 +10,7 @@ const MiddlePart = () => {
   return (
    
     <div className="bg-slate-100 text-black flex pt-20 middle">
-      <div className="flex-1 text-justify md:ms-20 mt-4">{text[0].text_1}</div>
+      <div className="flex-1 text-justify md:ms-20 mt-4 about_text">{text[0].text_1}</div>
       <div className="flex-1">
         <img className="text-center md:float-right md:me-20 border-2 border-current ring-inherit" src="image/bachelor.png" alt=""  style={{height:"300px", width:"400px"}}/>
       </div>

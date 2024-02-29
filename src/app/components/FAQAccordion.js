@@ -80,7 +80,7 @@ const FAQAccordion = () => {
             className="flex justify-between items-center bg-white p-3 cursor-pointer rounded-md"
             onClick={() => toggleAccordion(index)}
           >
-            <p className="text-lg font-semibold">{faq.question}</p>
+            <p className="text-lg font-semibold sm:text-base accordion_q">{faq.question}</p>
             <span>{activeIndex === index ? "▼" : "▲"}</span>
           </div>
           {activeIndex === index && (
