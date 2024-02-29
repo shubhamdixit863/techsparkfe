@@ -32,7 +32,7 @@ const BlogPage = () => {
         ))}
       </ul>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="flex">
                 <BlogCard />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -83,13 +83,17 @@ body {
 /* media query */
 @media (max-width: 676px) {
   .about {
-    /* background-color: greenyellow; */
     word-wrap: break-word;
     height: auto;
     font-size: 14px; 
   }
 }
 @media (max-width: 676px) {
+  .about {
+    word-wrap: break-word;
+    height: auto;
+    font-size: 14px; 
+  }
   .banner {
     word-wrap: break-word;
     height: auto;
@@ -130,5 +134,25 @@ body {
 .accordion_q{
   font-size: medium;
 }
-
+.blog_container{
+  display: grid;
+  gap:5px
 }
+.img_blog{
+   display:none 
+}
+.footer_child>*{
+  margin-left: 20px;
+  text-align: justify;
+  /* background-color: aquamarine; */
+}
+/* .footer_child{
+  margin-left: 20px;
+  background-color: blueviolet;
+  text-align: justify;
+} */
+}
+.blog{
+  display: flex;
+  flex-direction: row;
+  }

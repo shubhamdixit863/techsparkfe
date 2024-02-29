@@ -25,7 +25,7 @@ const Footer = () => {
         {/* Left Section*/}
         <div className="flex md:flex-row flex-col">
   <div className="md:w-1/4 md:mb-0 mb-4 md:mx-auto text-center sm:text-left">
-    <h3 className="text-center text-2xl text-blue-500 font-bold md:mb-2">YOUR PATH FORWARD</h3>
+    <h3 className="text-center text-2xl text-blue-500 font-bold md:mb-4">YOUR PATH FORWARD</h3>
     <p className="text-sm">{text}</p>
     <button
       className="bg-[#2f80ed] text-white font-medium rounded-lg text-sm px-4 py-2 mt-4 w-full md:w-auto mx-auto"
@@ -34,10 +34,10 @@ const Footer = () => {
       Download Brochure
     </button>
   </div>
-
-  <div className="md:w-1/4 w-full md:mb-0 mb-4 mx-auto md:mx-0 text-center sm:text-left md:ms-4">
-  <h1 className="text-2xl text-blue-500 font-bold mb-2 text-center">Courses</h1>
-  <ul className="flex flex-col gap-4 course text-center">
+{/* course section */}
+  <div className="md:w-1/4 w-full md:mb-0 mb-4 mx-auto md:mx-0 text-center sm:text-left md:ms-4 ">
+  <h1 className="text-2xl text-blue-500 font-bold md:mb-4 text-center">Courses</h1>
+  <ul className="flex flex-col gap-4 course text-center footer_child">
     <li className="flex gap-2 hover:underline hover:text-blue-700 hover:cursor-pointer text-center">
       <span><img className="invert" src="image/full.svg" alt="" /></span>MERN STACK
     </li>
@@ -55,8 +55,8 @@ const Footer = () => {
 
         {/* Center Section (Links) */}
         <div className="md:w-1/4 md:mb-0 mb-4 md:mx-auto text-center sm:text-left ">
-          <h3 className="text-center text-2xl text-blue-500 font-bold md:mb-2">Links</h3>
-          <ul className="space-y-2">
+          <h3 className="text-center text-2xl text-blue-500 font-bold md:mb-4">Links</h3>
+          <ul className="space-y-2 footer_child">
             <li>
              <Link href="/blog" className="text-white hover:text-blue-300 hover:underline  px-3 py-2 rounded-md text-sm font-medium">
                 Blog
@@ -79,10 +79,19 @@ const Footer = () => {
 
         {/* Right Section (Contact & Social Media) */}
         <div className="md:w-1/4 md:mb-0 mb-4 md:mx-auto text-center sm:text-left text-white">
-        <h3 className="text-center text-2xl text-blue-500 font-bold md:mb-2">Contact Us</h3>
-          <p className="text-sm mb-2 sm:text-xs">Email:contact@techsparkinnovations.com</p>
-          <p className="text-sm mb-2 hover:text-blue-500 hover:underline">Phone: +91 70035 06971</p>
-          <p className="text-sm  hover:text-blue-500 hover:underline">Phone: +91 98966 53821</p>
+        <h3 className="text-center text-2xl text-blue-500 font-bold md:mb-4">Contact Us</h3>
+        <ul className="text-center footer_child" >
+  <li>
+    <p className="text-sm mb-2 sm:text-xs  hover:text-blue-500 hover:underline"> Email: contact@techsparkinnovations.com</p>
+  </li>
+  <li>
+    <span className="text-sm mb-2 hover:text-blue-500 hover:underline">Phone: +91 70035 06971</span>
+  </li>
+  <li>
+    <p className="text-sm hover:text-blue-500 hover:underline">Phone: +91 98966 53821</p>
+  </li>
+</ul>
+
           {/* Social Media Links */}
           <div className="flex mt-4 justify-center items-center space-x-12">
             <a
