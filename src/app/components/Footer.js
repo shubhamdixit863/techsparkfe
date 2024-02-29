@@ -35,7 +35,7 @@ const Footer = () => {
     </button>
   </div>
 
-  <div className="md:w-1/4 w-full md:mb-0 mb-4 mx-auto md:mx-0 text-center sm:text-left">
+  <div className="md:w-1/4 w-full md:mb-0 mb-4 mx-auto md:mx-0 text-center sm:text-left md:ms-4">
   <h1 className="text-2xl text-blue-500 font-bold mb-2 text-center">Courses</h1>
   <ul className="flex flex-col gap-4 course text-center">
     <li className="flex gap-2 hover:underline hover:text-blue-700 hover:cursor-pointer text-center">
