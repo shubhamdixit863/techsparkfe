@@ -72,7 +72,7 @@ const FAQAccordion = () => {
         FAQs
       </h1>
     </div>
-    <h2 className="text-center text-gray-300 mb-3">Got a Question ? We are here to Answer!!</h2>
+    <h2 className="text-center text-gray-300 mb-3 sm:text-sm">Got a Question ? We are here to Answer!!</h2>
       </div>
       {faqs.map((faq, index) => (
         <div key={faq.id} className="mb-2 text-black md:w-3/4 mx-auto rounded-md sm:my-1">
