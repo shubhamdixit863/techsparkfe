@@ -144,6 +144,7 @@ body {
 .footer_child>*{
   margin-left: 20px;
   text-align: justify;
+  font-size: 12px;
   /* background-color: aquamarine; */
 }
 /* .footer_child{
