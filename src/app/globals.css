@@ -81,7 +81,11 @@ body {
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
+  
   /* padding: 0; */
+}
+.course>*{
+  margin: auto;
 }
 }
 /* why choose us area */

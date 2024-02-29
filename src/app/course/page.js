@@ -19,7 +19,7 @@ const CoursesPage = () => {
             {/* Section 2: Course Details */}
             <div className="mt-8">
                 <h1 className="text-2xl font-bold text-[#2f80ed] mb-4">About Course</h1>
-                <p className="text-gray-700">
+                <p className="text-gray-100">
 
    
 <h2 className="text-l font-bold text-[#2f80ed] mb-4">Mastering the MERN Stack: Build Full-Stack Web Applications</h2>
@@ -30,7 +30,7 @@ The MERN stack, comprised of MongoDB, Express.js, React, and Node.js, is a popul
 
 <div>
   <h2 className="text-2xl font-bold text-[#2f80ed] mb-4">What You'll Learn:</h2>
-  <ul className="list-disc list-inside text-lg text-gray-700">
+  <ul className="list-disc list-inside text-lg text-gray-100">
     <li><strong>MongoDB:</strong> Understand the fundamentals of NoSQL databases and learn how to design and manage MongoDB databases for your applications.</li>
     <li><strong>Express.js:</strong> Master the Express.js framework and learn how to build RESTful APIs and handle server-side logic and routing.</li>
     <li><strong>React:</strong> Dive deep into React, the popular JavaScript library for building user interfaces, and learn how to create dynamic and interactive front-end components.</li>
@@ -40,14 +40,14 @@ The MERN stack, comprised of MongoDB, Express.js, React, and Node.js, is a popul
 
 <div>
   <h2 className="text-2xl font-bold text-[#2f80ed] mb-4">Course Highlights:</h2>
-  <ul className="list-disc list-inside text-lg text-gray-700">
+  <ul className="list-disc list-inside text-lg text-gray-100">
     <li>Hands-on projects: Apply your learning to real-world projects and build a portfolio of full-stack web applications.</li>
     <li>Expert instruction: Learn from industry professionals with years of experience in full-stack development.</li>
     <li>Career readiness: Gain the skills and confidence needed to pursue careers as full-stack developers, software engineers, or web application developers.</li>
   </ul>
 </div>
 
-<p className="text-lg text-gray-700">Whether you're a beginner looking to start your journey in web development or an experienced developer seeking to expand your skill set, our MERN stack course offers a comprehensive and immersive learning experience to help you achieve your goals. Join us and embark on your path to becoming a proficient MERN stack developer today!</p>
+<p className="text-lg text-gray-100">Whether you're a beginner looking to start your journey in web development or an experienced developer seeking to expand your skill set, our MERN stack course offers a comprehensive and immersive learning experience to help you achieve your goals. Join us and embark on your path to becoming a proficient MERN stack developer today!</p>
 
 
                 </p>
@@ -56,7 +56,7 @@ The MERN stack, comprised of MongoDB, Express.js, React, and Node.js, is a popul
             {/* Section 3: Roadmap */}
             <div className="mt-8">
                 <h2 className="text-2xl font-bold text-[#2f80ed] mb-4">Roadmap</h2>
-                <ul className="list-disc list-inside text-gray-700">
+                <ul className="list-disc list-inside text-gray-100">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>

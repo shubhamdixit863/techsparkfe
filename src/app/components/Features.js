@@ -37,7 +37,7 @@ const Features = () => {
         Endless Reason To Choose Us
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 rounded-md">
+      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 rounded-md">
         {featureData.map((feature, index) => (
           <FeatureCard key={index} feature={feature} />
         ))}

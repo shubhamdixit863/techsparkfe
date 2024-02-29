@@ -13,8 +13,6 @@ const FormComponent = () => {
       [e.target.name]: e.target.value,
     });
   };
-
-
   const handleSubmit = async (e) => {
     e.preventDefault();
   
@@ -59,7 +57,7 @@ const FormComponent = () => {
             <span>+91</span>
           </div>
           <input
-            type="tel"
+            type="number"
             placeholder="Phone Number"
             id="phonenumber"
             name="phoneNumber"
