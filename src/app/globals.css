@@ -45,3 +45,115 @@ body {
   color: #fff;
   background-color: #2f80ed;
 }
+/* whatsapp icons style... connected on whatsapp */
+@keyframes danceAnimation {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+.dance-icon {
+  animation: danceAnimation 1s infinite;
+}
+/* why choose us area */
+.common_card{
+  border: none;
+  border-radius: 10px;
+}
+.common_card:hover{
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.08);
+  transition: all 2s;
+  cursor: pointer;
+}
+/* home part custom css */
+  .home_section_top{
+    color: white;
+    opacity: 0.2;
+    transition: opacity 1s ease-in-out;
+    clip-path: polygon(0 0, 100% 0, 100% 74%, 0 100%, 0% 100%);
+  }
+  fade-in-text {
+    opacity: 0.2;
+    transition: opacity 1s ease-in-out; 
+  }
+  .fade-in {
+    opacity: 1;
+  }
+/* media query */
+@media (max-width: 676px) {
+  .about {
+    word-wrap: break-word;
+    height: auto;
+    font-size: 14px; 
+  }
+}
+@media (max-width: 676px) {
+  .about {
+    word-wrap: break-word;
+    height: auto;
+    font-size: 14px; 
+  }
+  .banner {
+    word-wrap: break-word;
+    height: auto;
+    font-size: 14px; 
+  }
+  .home_section_top{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    clip-path: polygon(0% 0%, 100% 1%, 100% 90%, 35% 100%, 0% 100%)
+}
+.middle{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.about_text{
+  text-align: justify;
+  margin-left: 12px;
+  margin-right: 10px;
+  white-space: unset;
+}
+.course>*{
+  margin: auto;
+}
+.image_card{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.heading_card{
+  font-size: medium;
+}
+.text_card{
+   font-size: smaller;
+}
+.accordion_q{
+  font-size: medium;
+}
+.blog_container{
+  display: grid;
+  gap:5px
+}
+.img_blog{
+   display:none 
+}
+.footer_child>*{
+  margin-left: 20px;
+  text-align: justify;
+  font-size: 12px;
+  /* background-color: aquamarine; */
+}
+/* .footer_child{
+  margin-left: 20px;
+  background-color: blueviolet;
+  text-align: justify;
+} */
+}
+.blog{
+  display: flex;
+  flex-direction: row;
+  }
