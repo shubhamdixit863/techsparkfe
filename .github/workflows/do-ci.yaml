@@ -34,7 +34,7 @@ jobs:
         uses: matootie/dokube@v1.4.0
         with:
           personalAccessToken: ${{ secrets.DIGITALOCEAN_TOKEN }}
-          clusterName: k8s-1-29-1-do-0-blr1-1713291055225
+          clusterName: k8s-1-29-1-do-0-blr1-1713552212061
       # Run kubectl commands to deploy your application
       - name: Deploy Application
         run: |
