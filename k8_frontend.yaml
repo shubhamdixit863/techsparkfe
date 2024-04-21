@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nextjs
-        image: shubhamdixit863/techspark-frontend:latest
+        image: shubhamdixit863/eduyogi-frontend:latest
         ports:
         - containerPort: 3000
 ---

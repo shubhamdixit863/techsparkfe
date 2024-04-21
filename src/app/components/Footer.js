@@ -9,7 +9,7 @@ import Link from "next/link";
 const Footer = () => {
   const [showForm, setShowForm] = useState(false);
   const [text, setText] = useState(
-    "Empower your tech journey with TechSpark, where innovation meets expertise. We are a premier IT training institute, dedicated to shaping future tech leaders. Join us to acquire cutting-edge skills and unlock limitless possibilities in the world of technology"
+    "Empower your tech journey with eduyogi, where innovation meets expertise. We are a premier IT training institute, dedicated to shaping future tech leaders. Join us to acquire cutting-edge skills and unlock limitless possibilities in the world of technology"
   );
   const openForm = () => {
     setShowForm(true);
@@ -81,12 +81,8 @@ const Footer = () => {
         <div className="md:w-1/4 md:mb-0 mb-4 md:mx-auto text-center sm:text-left text-white">
         <h3 className="text-center text-2xl text-blue-500 font-bold md:mb-4">Contact Us</h3>
         <ul className="text-center footer_child" >
-  <li>
-    <p className="text-sm mb-2 sm:text-xs  hover:text-blue-500 hover:underline"> Email: contact@techsparkinnovations.com</p>
-  </li>
-  <li>
-    <span className="text-sm mb-2 hover:text-blue-500 hover:underline">Phone: +91 70035 06971</span>
-  </li>
+ 
+ 
   <li>
     <p className="text-sm hover:text-blue-500 hover:underline">Phone: +91 98966 53821</p>
   </li>
@@ -107,7 +103,7 @@ const Footer = () => {
               />
             </a>
             <a
-              href="https://www.instagram.com/techsparkeducation?igsh=MWxxYTZvMWdiMGZoYg=="
+              href="https://www.instagram.com/eduyogieducation?igsh=MWxxYTZvMWdiMGZoYg=="
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -131,7 +127,7 @@ const Footer = () => {
               />
             </a>
             <a
-              href="https://www.linkedin.com/company/techspark-education/"
+              href="https://www.linkedin.com/company/eduyogi-education/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -164,7 +160,7 @@ const Footer = () => {
 
           <div className="flex flex-row justify-center items-center fixed bottom-1">
             <a
-              href="https://wa.me/917003506971"
+              href="https://wa.me/919896653821"
               target="_blank"
               rel="noopener noreferrer"
               className="flex"

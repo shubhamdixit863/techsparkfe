@@ -6,8 +6,8 @@ import BlogCard from "../components/card/BlogCard";
 
 const BlogPage = () => {
     const [content] = useState({
-        welcome: "Welcome to TechSpark Blog",
-        intro: "Discover the latest in technology and stay informed with our insightful blog posts. TechSpark brings you a diverse range of articles, tutorials, and discussions covering various aspects of the tech world.",
+        welcome: "Welcome to eduyogi Blog",
+        intro: "Discover the latest in technology and stay informed with our insightful blog posts. eduyogi brings you a diverse range of articles, tutorials, and discussions covering various aspects of the tech world.",
         topics: [
           "Programming & Coding: Dive into the world of coding with tips, tricks, and in-depth guides.",
           "Web Development: Stay updated on the latest trends and best practices in web development.",

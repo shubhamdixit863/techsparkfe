@@ -5,8 +5,8 @@ const TopPart = () => {
     const [fade, setFade] = useState(false);
     const [text, setText] = useState([
       {
-        "banner_heading": "Welcome to TechSpark - Igniting Innovation, Empowering Futures!",
-        "banner_text": "At TechSpark, we're not just a platform; we're a community of tech enthusiasts, learners, and innovators. Our mission is to fuel the flame of curiosity and empower individuals to embrace the ever-evolving world of technology."
+        "banner_heading": "Welcome to eduyogi - Igniting Innovation, Empowering Futures!",
+        "banner_text": "At eduyogi, we're not just a platform; we're a community of tech enthusiasts, learners, and innovators. Our mission is to fuel the flame of curiosity and empower individuals to embrace the ever-evolving world of technology."
       }
     ]);
   

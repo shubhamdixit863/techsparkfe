@@ -4,11 +4,11 @@ import React, { useState } from 'react'
 
 const page = () => {
     const [content, setContent] = useState([
-        `Privacy Policy for TechSpark`,
+        `Privacy Policy for eduyogi`,
         ``,
         `Last Updated: 28th of Feb 2024`,
         ``,
-        `Thank you for choosing TechSpark. This Privacy Policy outlines our practices regarding the collection, use, and disclosure of your information when you use our services.`,
+        `Thank you for choosing eduyogi. This Privacy Policy outlines our practices regarding the collection, use, and disclosure of your information when you use our services.`,
         ``,
         `Registration Fee:`,
         `Non-refundable Fee:`,
@@ -20,7 +20,7 @@ const page = () => {
         `To be eligible for pay after placement services, participants must maintain a minimum attendance of 80% during the training sessions.`,
         ``,
         `Placement Services:`,
-        `Pay after placement services are contingent upon successfully completing the training program and meeting the eligibility criteria outlined by TechSpark.`,
+        `Pay after placement services are contingent upon successfully completing the training program and meeting the eligibility criteria outlined by eduyogi.`,
         ``,
         `Assignments:`,
         `Assignment Requirements:`,

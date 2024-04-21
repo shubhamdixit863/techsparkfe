@@ -17,27 +17,27 @@ const FAQAccordion = () => {
     },
     {
       id: 3,
-      question: "Can I enroll in Techspark's courses without any coding experience?",
+      question: "Can I enroll in eduyogi's courses without any coding experience?",
       answer:
         "Absolutely! Our courses are specifically designed to accommodate learners with no prior coding experience. By attending all the classes and following our carefully crafted curriculum, you'll be guided step-by-step to master the art of coding",
     },
     {
         id: 4,
-        question: "Does Techspark provide interview preparation support?",
+        question: "Does eduyogi provide interview preparation support?",
         answer:
-          "Absolutely! At Techspark, we offer comprehensive interview preparation assistance. Our dedicated placement team will guide you in crafting a compelling resume, optimizing your LinkedIn profile, and conducting unlimited mock interviews to help you ace your job interviews.",
+          "Absolutely! At eduyogi, we offer comprehensive interview preparation assistance. Our dedicated placement team will guide you in crafting a compelling resume, optimizing your LinkedIn profile, and conducting unlimited mock interviews to help you ace your job interviews.",
       },
       {
         id: 5,
         question: "When does the placement process begin and what is the procedure?",
         answer:
-          "The placement process at Techspark commences after 5 months of your enrollment in the course. Once you have acquired the necessary skills and completed prior modules, you can start applying to companies that align with your eligibility and skillset",
+          "The placement process at eduyogi commences after 5 months of your enrollment in the course. Once you have acquired the necessary skills and completed prior modules, you can start applying to companies that align with your eligibility and skillset",
       },
       {
         id: 6,
         question: "What is pay after placement mode of enrollment?",
         answer:
-          "In pay after placement mode, the tuition fees for the course are covered by Techspark. The student pays the remaining fees after getting a job through Techspark's placement services",
+          "In pay after placement mode, the tuition fees for the course are covered by eduyogi. The student pays the remaining fees after getting a job through eduyogi's placement services",
       },
     
   ]);

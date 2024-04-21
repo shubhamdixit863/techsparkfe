@@ -7,8 +7,8 @@ import FAQAccordion from "./components/FAQAccordion";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Techspark",
-  description: "TechSpark Education Website ,Mern stack,dsa ,software ,pay after placement",
+  title: "Eduyogi",
+  description: "Eduyogi Education Website ,Mern stack,dsa ,software ,pay after placement",
 };
 
 export default function RootLayout({ children }) {
