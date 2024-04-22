@@ -71,7 +71,7 @@ const Navbar = () => {
         </div>
        
 <div className="announce-bar ps-1 md:text-sm lg:text-base">
-  <p>Next batch starts on ⌛️ 2nd June. Hurry, limited seats left!</p>
+  <p className='text-xs  md:text-sm'>Next batch starts on ⌛️ 2nd June. Hurry, limited seats left!</p>
 </div>
       </>
     );
