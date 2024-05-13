@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import axios from "axios";
 const FormComponent = () => {
   const [formData, setFormData] = useState({
-    fullName: '',
-    phoneNumber: '',
+    name: '',
+    phone_number: '',
   });
 
   const handleChange = (e) => {
@@ -17,13 +17,12 @@ const FormComponent = () => {
     e.preventDefault();
   
     try {
-      const response = await axios.post("api-endpoint", formData);
+      const response = await axios.post("http://localhost:8000/enquiry", formData);
       console.log("Submitted Data:", formData);
       // Clear the form data
       setFormData({
-        fullName: '',
-        email: '',
-        mobile: '',
+        name: 'test',
+        phone_number: 'test',
       });
       console.log("Response from backend:", response.data);
     } catch (error) {
