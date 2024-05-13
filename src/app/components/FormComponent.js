@@ -17,12 +17,12 @@ const FormComponent = () => {
     e.preventDefault();
   
     try {
-      const response = await axios.post("http://localhost:8000/enquiry", formData);
+      const response = await axios.post("https://api.eduyogi.co/enquiry", formData);
       console.log("Submitted Data:", formData);
       // Clear the form data
       setFormData({
-        name: 'test',
-        phone_number: 'test',
+        name: '',
+        phone_number: '',
       });
       console.log("Response from backend:", response.data);
     } catch (error) {
@@ -43,9 +43,9 @@ const FormComponent = () => {
           <input
             type="text"
             placeholder="Full Name"
-            id="fullname"
-            name="fullName"
-            value={formData.fullName}
+            id="name"
+            name="name"
+            value={formData.name}
             onChange={handleChange}
             className="w-full px-4 py-2 border border-gray-300 text-black rounded-md focus:ring-blue-500 focus:border-blue-500 shadow-sm z-10"
           />
@@ -58,9 +58,9 @@ const FormComponent = () => {
           <input
             type="number"
             placeholder="Phone Number"
-            id="phonenumber"
-            name="phoneNumber"
-            value={formData.phoneNumber}
+            id="phone_number"
+            name="phone_number"
+            value={formData.phone_number}
             onChange={handleChange}
             className="w-full pl-12 pr-4 py-2 text-black border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 shadow-sm z-10"
           />

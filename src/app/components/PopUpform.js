@@ -22,7 +22,7 @@ const PopUpForm = ({ onClose }) => {
     e.preventDefault();
   
     try {
-      const response = await axios.post("api-endpoint", formData);
+      const response = await axios.post("https://api.eduyogi.co/enquiry", formData);
       console.log("Submitted Data:", formData);
       setFormData({
         fullName: '',
@@ -75,7 +75,7 @@ const PopUpForm = ({ onClose }) => {
             <input
               type="text"
               id="fullName"
-              className="mt-1 p-2 border border-gray-300 rounded-md w-full"
+              className="mt-1 p-2 border border-gray-300 rounded-md w-full  text-black"
               value={formData.fullName}
               onChange={handleChange}
             />
@@ -99,7 +99,7 @@ const PopUpForm = ({ onClose }) => {
             <input
               type="tel"
               id="mobile"
-              className="mt-1 p-2 border border-gray-300 rounded-md w-full"
+              className="mt-1 p-2 border border-gray-300 rounded-md w-full  text-black"
               value={formData.mobile}
               onChange={handleChange}
             />
