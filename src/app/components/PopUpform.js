@@ -39,7 +39,7 @@ const PopUpForm = ({ onClose }) => {
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-white pb-5 px-5 rounded-md relative md:m-2">
+      <div className="bg-white pb-5 px-5 rounded-md relative md:m-2 m-2">
         {/* Close button */}
         <button
           className= "relative top-0 left-full text-black hover:text-gray-800 hover:rounded-full hover:bg-gray-500"
